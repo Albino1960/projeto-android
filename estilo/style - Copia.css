@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:"IDroid" ;
+    src: url("../fontes/idroid.otf");
+}
+
+:root {
+    --cor0: #c5ebd6 ;
+    --cor1: #83e1ad;
+    --fonte-android: "IDroid",Verdana, Geneva, Tahoma, sans-serif;
+}
+
+*{
+    margin: 0;
+}
+
+    
+
+main{
+    background-color: lightgreen;
+   
+}
+header {
+
+    color: white;
+   
+    background-color: aquamarine;
+    background-image: linear-gradient(to top,
+    rgb(39, 128, 12),rgb(133, 243, 148));
+    padding: 15px;
+    
+}
+#cabeca {
+    width: 50%;
+    font-family: Oswald;
+    font-size: 1.5em;
+    text-align: center;
+    margin: auto;
+    
+}
+section{
+    background-color: white;
+    margin: auto;
+    min-width: 300px;
+    max-width: 800px;
+    padding-left: 10px;
+    
+    
+   
+}
+section p {
+    margin: 10px;
+    text-align: justify;
+    text-indent: 50px;
+    font-family:sans-serif;
+
+}     
+section span {
+    color: rgb(39, 128, 12);
+}   
+
+
+#menu a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 20px;
+}
+#menu a:hover{
+    text-decoration: underline;
+    color: darkgreen;
+}
+#bug{
+    text-align: center;
+}
+#irina{
+
+text-align: center;
+    
+}
+#vid{
+    background-color: darkgreen;
+    text-align: center;
+}
+#vid iframe{
+    margin: 20px 10px;
+}
+#versao  {
+    
+    border: 10px;
+    border-radius: 10px 10px;
+    background-color: var(--cor1);
+    
+}
+#versao ul li{
+    list-style: none;
+    }
+section h1 {
+    font-family: var(--fonte-android);
+    font-size: 2em;
+    font-weight: normal;
+    color: rgb(39, 128, 12);
+}
+section h2 {
+    font-family: var(--fonte-android);
+    font-size: 1em;
+    font-weight: normal;
+    color: rgb(39, 128, 12);
+}
+section h3 {
+    color: white;
+    border-top: 10px;
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px;
+    background-color: rgb(39, 128, 12);
+        }
+
+footer{
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+            color: darkgray;
+            background-color:  rgb(39, 128, 12);
+        }
+footer span{
+            color: white;
+          
+        }        

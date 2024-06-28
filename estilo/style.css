@@ -1,0 +1,176 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:"IDroid" ;
+    src: url("../fontes/idroid.otf");
+}
+
+:root {
+    --cor0: #c5ebd6 ;
+    --cor1: #83e1ad;
+    --fonte-android: "IDroid",Verdana, Geneva, Tahoma, sans-serif;
+}
+
+*{
+    margin: 0;
+    
+}
+
+    
+
+main{
+    background-color: lightgreen;
+    
+   
+}
+main img{
+    width: 100%;
+}
+header {
+
+    color: white;
+   
+    background-color: aquamarine;
+    background-image: linear-gradient(to top,
+    rgb(39, 128, 12),rgb(133, 243, 148));
+  
+ margin-bottom: 1px;
+ box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.692);
+
+}
+#cabeca {
+    width: 50%;
+    font-family: Oswald;
+    font-size: 1.5em;
+    text-align: center;
+    margin: auto; 
+    
+    
+}
+#cabeca h1 {
+    text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.219);
+}
+
+#cabeca p {
+    text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.219);
+}
+
+section{
+    background-color: white;
+    margin: auto;
+   /* margin-bottom: 30px;*/
+    min-width: 300px;
+    max-width: 1000px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+    
+    
+   
+}
+section p {
+
+    text-align: justify;
+    text-indent: 50px;
+    font-family:sans-serif;
+    line-height: 1.5em; 
+    margin-left: 10px;
+    margin-right: 10px;
+}     
+section span {
+    color: rgb(39, 128, 12);
+}   
+
+#menu {
+  padding: 10px;
+}
+
+#menu a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+#menu a:hover{
+    background-color: aquamarine;
+    text-decoration: underline;
+    color: darkgreen;
+}
+#bug{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+#irina img{
+
+width: 100%;
+    
+}
+#vid {
+   background-color: darkgreen; 
+   /* text-align: center; */
+    position: relative;
+    padding-bottom: 50%;
+}
+#vid iframe{
+    margin: 20px 10px;
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    width: 90%;
+    height: 90%;
+}
+
+section h1 {
+    font-family: var(--fonte-android);
+    font-size: 2em;
+    font-weight: normal;
+    color: rgb(39, 128, 12);
+    margin-left: 15px;
+    
+}
+section h2 {
+    font-family: var(--fonte-android);
+    font-size: 1em;
+    font-weight: normal;
+    color: rgb(39, 128, 12);
+    margin-left: 15px;
+}
+section h3 {
+    color: white;
+    border-top: 10px;
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px;
+    background-color: rgb(39, 128, 12);
+        }
+
+
+#versao  {
+
+    border: 10px;
+    border-radius: 10px 10px;
+    background-color: var(--cor1);
+}
+
+#versao ul{
+    list-style-type: "\2714\00A0";/* codigo do emogipedia do google 2714 e o \00a0 é espaço em brnaco */
+    columns: 2;
+
+    }        
+footer{
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+            color: darkgray;
+            background-color:  rgb(39, 128, 12);
+            
+            
+        }
+footer span{
+            color: white;
+          
+        } 
+footer p {
+    padding: 5px;
+}               
