@@ -39,11 +39,13 @@ header {
 
 }
 #cabeca {
-    width: 50%;
+    
     font-family: Oswald;
     font-size: 1.5em;
     text-align: center;
     margin: auto; 
+    line-height: 2.5em; 
+
     
     
 }
